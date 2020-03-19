@@ -14,7 +14,7 @@ function expressionCalculator(expr) {
     } while (length !== input.length);
   
     if (input.length !== 0) {
-      throw new Error('Input Error');
+      throw new Error('ExpressionError: Brackets must be paired.');
     }
   
     const operationRange = {
